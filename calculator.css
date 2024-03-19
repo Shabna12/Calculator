@@ -1,0 +1,49 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+input[type="text"]{     
+    text-align: right;  
+}  
+
+
+
+
+.all{
+    margin-left: 300px;
+}
+
+
+/* .box{
+    
+    border: 5px solid;
+    padding: 15px;
+    border-radius: 15px;
+    
+    
+} */
+
+
+.one{
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.two{
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.three{
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.four{
+    width: 12%;
+    padding: 10px;
+    border-radius: 10px;
+}

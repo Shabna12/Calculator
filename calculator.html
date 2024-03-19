@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./calculator.css">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg-primary">
+    <h2 class="m-4 fw-bolder text-center fs-3">CALCULATOR</h2>
+    <div class="container mt-5 justify-content-center align-items-center">
+        <div class="ms-5 justify-content-center align-items-center p-3">
+
+            <div id="box" class="all">
+                <div class="box">
+                      <!--cal screen  -->
+            <input id="calcScreen" type="text" class="form-control w-50" placeholder="0"> <br>
+
+
+            <!-- cal buttons  -->
+            <button onclick="clearAllContent()" class="one fw-bolder text-danger"> AC  </button>
+            <button onclick="displayContent('()')" class="two fw-bolder text-success"> () </button>
+            <button onclick="displayContent('%')" class="three fw-bolder text-success"> % </button>
+            <button onclick="displayContent('/')" class="four fw-bolder text-success"> &#247 </button>
+            <br> <br>
+            <button onclick="displayContent('7')" class="one fw-bolder bg-light"> 7 </button>
+            <button onclick="displayContent('8')" class="two fw-bolder bg-light"> 8 </button>
+            <button onclick="displayContent('9')" class="three fw-bolder bg-light"> 9 </button>
+            <button onclick="displayContent('*')" class="four fw-bolder text-success"> x </button>
+            <br> <br>
+            <button onclick="displayContent('4')" class="one fw-bolder bg-light"> 4 </button>
+            <button onclick="displayContent('5')" class="two fw-bolder bg-light"> 5 </button>
+            <button onclick="displayContent('6')" class="three fw-bolder bg-light"> 6 </button>
+            <button onclick="displayContent('-')" class="four fw-bolder text-success"> - </button>
+            <br> <br>
+            <button onclick="displayContent('3')" class="one fw-bolder bg-light"> 3 </button>
+            <button onclick="displayContent('2')" class="two fw-bolder bg-light"> 2 </button>
+            <button onclick="displayContent('1')" class="three fw-bolder bg-light"> 1 </button>
+            <button onclick="displayContent('+')" class="four fw-bolder text-success"> + </button>
+            <br> <br>
+            <button onclick="removeLast()" class="one fw-bolder bg-light"> &#9003 </button>
+            <button onclick="displayContent('0')" class="two fw-bolder bg-light"> 0 </button>
+            <button onclick="displayContent('.')" class="three fw-bolder bg-light"> . </button>
+            <button onclick="showResult()"  class="four fw-bolder text-light bg-success"> = </button>
+                </div>
+                
+            </div>
+                   
+        </div>
+    </div>
+</body>
+<!-- external js -->
+<script src="./main.js"></script>
+</html>
